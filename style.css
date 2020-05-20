@@ -1,11 +1,10 @@
 body {
 	background-color: #EEE;
 	font-family: Calibri, Arial, sens-serif;
+	box-sizing: border-box;
 }
 
-a {
-	text-decoration: none;
-}
+
 
 #header {
 	background-color: #d6b0c5;
@@ -54,6 +53,8 @@ a {
 	border: 1px solid white;
   	border-radius: .5em;
 	background-color: #c6bcd1;	
+	min-width: 350px;
+	max-width: 1000px;
 }
 
 #content1 {
@@ -80,6 +81,8 @@ a {
 	border: 1px solid white;
   	border-radius: .5em;
 	background-color: #c6bcd1;	
+	min-width: 350px;
+	max-width: 1000px;
 }
 
 #content2 {
@@ -106,6 +109,8 @@ a {
 	border: 1px solid white;
   	border-radius: .5em;
 	background-color: #c6bcd1;	
+	min-width: 350px;
+	max-width: 1000px;
 }
 
 #content3 {
@@ -132,6 +137,8 @@ a {
 	border: 1px solid white;
   	border-radius: .5em;
 	background-color: #c6bcd1;	
+	min-width: 350px;
+	max-width: 350px;
 }
 
 #sideMenu {
@@ -142,7 +149,7 @@ a {
 
 }
 
-#buttonsContainer {
+#buttonsContainer0 {
   	background-color: white;
 	border: 1px solid white;
   	border-radius: .5em;
@@ -152,30 +159,45 @@ a {
   	padding: 5px;
 }
 
-#buttons {
-	padding-bottom: 1385px;
+#buttonsContainer1 {
+	padding-bottom: 1170px;
 	border: 1px solid white;
   	border-radius: .5em;
   	background-color: #dbd3db;
-  	width: 100%;
-  	
+  	width: 100%;  	
   	align-items: top;
   	justify-content: center;
   	display: flex;	
   	font-size: 200%;
   	text-align: center;
-  	
-  	
+}
+
+#buttons .button {
+	background-color: #555555;
+	border: 2px solid grey;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 20px 2px;
+	cursor: pointer;
+	border-radius: 4px;
+	transition-duration: 0.2s;
+	width: 50%;
+	
 
 }
 
-#buttons ul {
-	list-style-type: none;
-
+#buttons .button1 {
+	padding: 30px 32px;
 }
 
-#buttons .selected {
+#buttons .button:hover	{
+	background-color: green;
 	font-weight: bold;
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
 }
 
 #footer {
