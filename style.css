@@ -1,5 +1,10 @@
 body {
 	background-color: #EEE;
+	font-family: Calibri, Arial, sens-serif;
+}
+
+a {
+	text-decoration: none;
 }
 
 #header {
@@ -8,20 +13,27 @@ body {
 	text-align: center;
 	position: sticky;
 	top: 0;
+	font-size: 125%;
 }
 
 #container {
 	background-color: white;
-	width: 800px;
+	width: 60%;
 	margin-left: auto;
 	margin-right: auto;
+}
+
+#innerContainer {
+	float: right;
+	width: 75%;
+	align-items: top;
+  	justify-content: center;
 }
 
 #content0 {
 	background-color: white;
 	border: 1px solid white;
   	border-radius: .5em;
-  	background-color: white;
 	display: flex;
   	align-items: top;
   	justify-content: center;
@@ -30,7 +42,6 @@ body {
 
 #text0 {
 	padding: 5px;
-	width: 350px;
 	float: left;
 	border: 1px solid white;
   	border-radius: .5em;
@@ -39,7 +50,6 @@ body {
 
 #images0	{
 	padding: 5px;
-	width: 350px;
 	float: right;
 	border: 1px solid white;
   	border-radius: .5em;
@@ -50,7 +60,6 @@ body {
 	background-color: white;
 	border: 1px solid white;
   	border-radius: .5em;
-  	background-color: white;
 	display: flex;
   	align-items: top;
   	justify-content: center;	
@@ -59,7 +68,6 @@ body {
 
 #text1 {
 	padding: 5px;
-	width: 350px;
 	float: left;
 	border: 1px solid white;
   	border-radius: .5em;
@@ -68,7 +76,6 @@ body {
 
 #images1	{
 	padding: 5px;
-	width: 350px;
 	float: right;
 	border: 1px solid white;
   	border-radius: .5em;
@@ -79,7 +86,6 @@ body {
 	background-color: white;
 	border: 1px solid white;
   	border-radius: .5em;
-  	background-color: white;
 	display: flex;
   	align-items: top;
   	justify-content: center;	
@@ -88,7 +94,6 @@ body {
 
 #text2 {
 	padding: 5px;
-	width: 350px;
 	float: left;
 	border: 1px solid white;
   	border-radius: .5em;
@@ -97,7 +102,6 @@ body {
 
 #images2	{
 	padding: 5px;
-	width: 350px;
 	float: right;
 	border: 1px solid white;
   	border-radius: .5em;
@@ -108,7 +112,6 @@ body {
 	background-color: white;
 	border: 1px solid white;
   	border-radius: .5em;
-  	background-color: white;
 	display: flex;
   	align-items: top;
   	justify-content: center;	
@@ -117,7 +120,6 @@ body {
 
 #text3 {
 	padding: 5px;
-	width: 350px;
 	float: left;
 	border: 1px solid white;
   	border-radius: .5em;
@@ -126,17 +128,63 @@ body {
 
 #images3	{
 	padding: 5px;
-	width: 350px;
 	float: right;
 	border: 1px solid white;
   	border-radius: .5em;
 	background-color: #c6bcd1;	
 }
+
+#sideMenu {
+	float: left;
+	width: 24%;
+  	align-items: top;
+  	justify-content: center;
+
+}
+
+#buttonsContainer {
+  	background-color: white;
+	border: 1px solid white;
+  	border-radius: .5em;
+	display: flex;
+  	align-items: top;
+  	justify-content: center;	
+  	padding: 5px;
+}
+
+#buttons {
+	padding-bottom: 1385px;
+	border: 1px solid white;
+  	border-radius: .5em;
+  	background-color: #dbd3db;
+  	width: 100%;
+  	
+  	align-items: top;
+  	justify-content: center;
+  	display: flex;	
+  	font-size: 200%;
+  	text-align: center;
+  	
+  	
+
+}
+
+#buttons ul {
+	list-style-type: none;
+
+}
+
+#buttons .selected {
+	font-weight: bold;
+}
+
 #footer {
 	background-color: #d6b0c5;
 	text-align: center;
 	position: sticky;
   	bottom: 0;
   	height: 30px;
+  	clear: both;
+  	color: white;
 
 }
