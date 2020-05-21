@@ -83,7 +83,7 @@ body {
   	border-radius: .5em;
 	background-color: #c6bcd1;	
 	min-width: 350px;
-	width: 1000px;
+	max-width: 1000px;
 }
 
 #content2 {
