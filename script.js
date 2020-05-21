@@ -27,6 +27,9 @@ function hideText(){
     scriptedText1.style.display = "none";
     scriptedText2.style.display = "none";
     scriptedText3.style.display = "none";
+    scriptedImage1.style.width = "100%";
+    scriptedImage2.style.width = "100%";
+    scriptedImage3.style.width = "100%";
     
 }
 
@@ -41,4 +44,12 @@ function showText(){
     scriptedText1.style.display = "block";
     scriptedText2.style.display = "block";
     scriptedText3.style.display = "block";
+    scriptedImage1.style.width = "350px";
+    scriptedImage2.style.width = "350px";
+    scriptedImage3.style.width = "350px";
 }
+
+//fixing image sizes
+const scriptedImage1 = document.querySelector("#images1");
+const scriptedImage2 = document.querySelector("#images2");
+const scriptedImage3 = document.querySelector("#images3");
